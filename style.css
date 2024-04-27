@@ -1,0 +1,78 @@
+/* Base styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background: #222; /* Darker background for the header */
+    border-bottom: 1px solid #444; /* Adding a subtle border */
+}
+
+.home-button {
+    margin-right: auto; /* Pushes everything else to the right */
+    padding: 0.5rem 1rem;
+    background: #555;
+    color: white;
+    text-decoration: none; /* Removes underline from links */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.home-button:hover {
+    background: #777;
+}
+
+input[type="text"], button {
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+
+input[type="text"] {
+    width: 40%;
+    border-radius: 20px; /* Rounded corners */
+    border: 1px solid #ccc; /* Optional: adds a subtle border */
+}
+
+button {
+    background: #555;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; /* Slightly rounded corners for the button */
+}
+
+button:hover {
+    background: #777;
+}
+
+/* Results section */
+#results {
+    padding: 1rem;
+    text-align: center;
+}
+
+#results div {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-bottom: 1px solid #444;
+}
+
+#results div:hover {
+    background: #222;
+}
+
+h1 {
+    font-size: 2rem; /* Increase the font size for the heading */
+    color: #ccc; /* Light grey color for the heading */
+    margin: 0 1rem; /* Space around the heading */
+}
