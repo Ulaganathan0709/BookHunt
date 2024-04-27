@@ -18,7 +18,7 @@ BookHunt is a web application designed to help users easily search and explore b
 
 ## Live Demo
 
-You can view a live demo of the application at: [BookHunt Live](https://your-live-url.com)
+You can view a live demo of the application at: [BookHunt Live](https://bookhuntusk.netlify.app/)
 
 ## Setup
 
